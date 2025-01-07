@@ -17,3 +17,23 @@ git remote add origin https://github.com/ravik07/Backend_Blog_Application.git
 git branch -M main
 git push -u origin main
 ====================================================
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Useful Git Commands :
+1) git branch --show-current                         : show current branch
+2) git checkout branchname                           : for switch branch
+---------(If foo exists, try to switch to foo:
+
+            git switch foo
+            If foo does not exist and origin/foo exists, try to create foo from origin/foo and then switch to foo:
+            
+            git switch -c foo origin/foo
+            # or simply
+            git switch foo
+            More generally, if foo does not exist, try to create foo from a known ref or commit and then switch to foo:
+            
+            git switch -c foo <ref>
+            git switch -c foo <commit>)
+3) git fetch --all                                  : fetch all details of current repo with all "branches"
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
