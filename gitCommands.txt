@@ -28,7 +28,9 @@ Section-2
 //
 Useful Git Commands :
 1) git branch --show-current                         : show current branch
-2) git checkout branchname                           : for switch branch
+2) git checkout branchname                           : for switch branch 
+            if 2nd cmd not working then use this cmd
+                        git checkout -b <my-branch-name>   //but first check all branches by 3rd cmd
 ---------(If foo exists, try to switch to foo:
 
             git switch foo
